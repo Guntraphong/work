@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark mybg">
+        <div class="container-fluid">
+            <img src="images/rabbit4.jpg" alt=""width=150 height="100" mb-2>
+          <a class="navbar-brand" href="#">My Rabbit</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Email</a></li>
+                  <li><a class="dropdown-item" href="#">Talephone</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+             
+            </ul>         
+          </div>
+        </div>
+      </nav>
+     <!---mano--->
+     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img width="200" height="700" src="data:image/jpeg;base64,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" class="d-block w-100" alt="..." width="200">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img width="200" height="700" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgdyJkimJTs2pAdY0b7u_EErZ7uhmyJQbb3vXGB6Y0FbyPeSQm4M2Xi8UrvI6VKesOTa4&usqp=CAU" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img width="200" height="700" src="https://i.pinimg.com/564x/9c/fb/aa/9cfbaac20aec912714c3cc913da01d8e.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item"data-bs-interval="2000">
+            <img width="200" height="700" src="https://www.boredpanda.com/blog/wp-content/uploads/2022/10/6346ac16e803d_bunnies-jerks-pics.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fourth slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-----------------------social----------------------->
+      <div class="container-fluid  bg-primary">
+       <div class="row">
+        <div class="col-sm-3 mt-2 mb-2">
+          <div class="my-circle bg-light d-flex flex-column align-items-center pt-4">
+            <img width="45" height="45" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new"/>
+            <p>Facebook</p>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-2 mb-2">
+          <div div class="my-circle bg-light d-flex flex-column align-items-center pt-4">
+            <img width="45" height="45" src="https://img.icons8.com/color/48/line-me.png" alt="line-me"/>
+            <p>Line</p>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-2 mb-2">
+          <div div class="my-circle bg-light d-flex flex-column align-items-center pt-4">
+            <img width="45" height="45" src="https://img.icons8.com/fluency/48/tiktok.png" alt="tiktok"/>
+            <p>TikTok</p>
+          </div>
+        </div>
+        <div class="col-sm-3 mt-2 mb-2">
+          <div div class="my-circle bg-light d-flex flex-column align-items-center pt-4">
+            <img width="45" height="45" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram"/>
+            <p>Instagram</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+      <main>
+
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Album example</h1>
+              <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="images/rabbit1.jpg" alt="" height="400">
+      
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">read more</button>
+                       
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="images/rabbit2.png" alt="" height="400">
+      
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">read more</button>
+                        
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                 <img src="images/rabbit3.jpg" alt="" height="400">
+      
+                  <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">read more</button>
+                       
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+             
+            </div>
+          </div>
+        </div>
+      
+      </main>
+      <footer class="container-fluid bg-dark text-white text-center p-2 ">
+        <p>&copy;  copyright by Guntraphong Phutthinatpaisan<br>
+            Information Technology Program <br>
+            Nakhon Pathom Rajabhat University, 2022</p>
+    
+   </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

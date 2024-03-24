@@ -1,0 +1,22 @@
+a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 73, 180);
+    margin: auto;
+
+    padding: 10px 24px;
+    border-radius: 50px;
+}
+input{
+    margin-top: 10px;
+}
+
+.mybg {
+    background-color: rgb(1, 73, 180);
+}
+
+.my-circle {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
